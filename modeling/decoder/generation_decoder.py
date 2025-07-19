@@ -51,7 +51,7 @@ class NexusGenGenerationDecoder:
         FluxDiT.state_dict_converter = staticmethod(state_dict_converter)
         model_manager.load_model_from_single_file(decoder_path, state_dict=dit_state_dict, model_names=['flux_dit'], model_classes=[FluxDiT], model_resource='diffusers')
         dit_torch_dtype = torch_dtype if not self.fp8_quantization else torch.float8_e4m3fn
-        model_manager.model[-1].to(device, dtype=dit_torch_dtype)
+        model_manager.model[-1].to(dtype=dit_torch_dtype)
 
         pipe = NexusGenGenerationPipeline.from_model_manager(model_manager, device=device)
         if self.enable_cpu_offload:
