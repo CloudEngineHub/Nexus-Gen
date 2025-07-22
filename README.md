@@ -15,6 +15,9 @@
 </div>
 
 ## News
+
+- **July 21, 2025**: Thanks to @[wikeeyang](https://github.com/wikeeyang) for contributing the NF4 and float8_e4m3fn [quantized version](https://huggingface.co/wikeeyang/Nexus-GenV2-nf4-fp8) of Nexus-Gen V2.
+
 - **July 11, 2025**: **[Nexus-Gen V2](https://www.modelscope.cn/models/DiffSynth-Studio/Nexus-GenV2) is released**. Please refer to [Technical report](http://arxiv.org/abs/2504.21356) for more details. Compared to the previous version, the model is opitimized from the following aspects:
   - Better image understanding capbility (**45.7 on [MMMU](https://github.com/MMMU-Benchmark/MMMU)**) through optimization on training schedules.
   - Better image generation (**0.81 on [GenEval](https://github.com/djghosh13/geneval.git)**) robustness through training with long-short caption.
