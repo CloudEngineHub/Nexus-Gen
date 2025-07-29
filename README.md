@@ -10,6 +10,7 @@
   <a href="http://arxiv.org/abs/2504.21356"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
   <a href="https://www.modelscope.cn/models/DiffSynth-Studio/Nexus-GenV2"><img src="https://img.shields.io/static/v1?label=Model&message=ModelScope&color=blue"></a> &ensp;
   <a href="https://huggingface.co/modelscope/Nexus-GenV2"><img src="https://img.shields.io/static/v1?label=Model&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://www.modelscope.cn/datasets/DiffSynth-Studio/Nexus-Gen-Training-Dataset"><img src="https://img.shields.io/static/v1?label=Dataset&message=ModelScope&color=orange"></a> &ensp;
   <a href="https://www.modelscope.cn/studios/DiffSynth-Studio/Nexus-Gen"><img src="https://img.shields.io/static/v1?label=Online%20Demo&message=ModeScope&color=green"></a> &ensp;
 
 </div>
@@ -141,7 +142,7 @@ Please refer to `train/configs/editing_decoder.yaml` for detailed configurations
 modelscope download --model Qwen/Qwen2.5-VL-7B-Instruct --local_dir models/Qwen/Qwen2.5-VL-7B-Instruct
 ```
 ## Training Datasets
-To be published.
+The training dataset of Nexus-Gen is published in [Nexus-Gen-Training-Dataset](https://www.modelscope.cn/datasets/DiffSynth-Studio/Nexus-Gen-Training-Dataset).
 
 ## Qualitative results of Nexus-Gen
 ![cover](assets/illustrations/gen_edit.jpg)
